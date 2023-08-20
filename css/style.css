@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.main {
+    background-color: #a5c5e4;
+    padding: 5em 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1em;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.card-head img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card-text {
+    text-align: center;
+    padding: 0 1.1em;
+}
+
+p {
+    font-size: 1.5rem;
+}
